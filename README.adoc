@@ -1,6 +1,9 @@
 = Site Made With Asciidoctor
 Demo of website produced using only Asciidoctor
 
+This website http://tedbergeron.github.io/SiteMadeWithAsciidoctor/ was made _only using Asciidoctor_ and with *one command*.
+
+.Here's How
 Start with your content marked up as AsciiDoc. See text files in the directory. I am using a header and footer that is included on the index and page one AsciiDoc text file.
 
 == To render the pages
