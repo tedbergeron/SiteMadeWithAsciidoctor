@@ -10,17 +10,29 @@ Start with your content marked up as AsciiDoc. See text files in the directory. 
 
 At the command prompt
 
- > asciidoctor -a stylesheet=styles/maker.css  *.txt
-
-If you'd like to use the colony stylesheet use
-
- > asciidoctor -a stylesheet=styles/colony.css  *.txt
+ > asciidoctor *.txt
 
 == Push or FTP
 
 Push your files back to your GitHub 'gh-pages' branch.
 
 Or just FTP the .html files that were generated to your own website.
+
+== Use Different Asciidoctor Themes
+
+I've included a couple themes in the styles directory. To use them.
+
+At the command prompt
+
+ > asciidoctor -a stylesheet=styles/maker.css  *.txt
+
+If you'd like to use the colony stylesheet use
+
+ > asciidoctor -a stylesheet=styles/colony.css  *.txt
+ 
+
+NOTE: You can get other themes and preview them here: http://themes.asciidoctor.org/ 
+
 
 == Smart Links
 
