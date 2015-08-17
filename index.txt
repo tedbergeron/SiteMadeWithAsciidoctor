@@ -1,0 +1,19 @@
+:icons: font
+include::header.txt[]
+
+== Home
+
+This website is created using only Asciidoctor
+
+* <<one.txt#,One>>
+* <<two.txt#,Two>>
+* <<three.txt#,Three>>
+
+'''
+[square]
+* icon:star[role=yellow] http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
+* icon:star[role=yellow] http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Asciidoctor quick ref]
+* icon:star[role=yellow] http://asciidoctor.org/docs/user-manual/#doc-header[Asciidoctor User Manual: syntax]
+
+
+include::footer.txt[]
