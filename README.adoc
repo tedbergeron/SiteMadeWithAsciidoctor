@@ -3,16 +3,6 @@ Demo of website produced using only Asciidoctor
 
 Start with your content marked up as AsciiDoc. See text files in the directory. I am using a header and footer that is included on the index and page one AsciiDoc text file.
 
-I'm using Asciidoctor 'smart links' to convert the file extension ".adoc" or ".txt" to ".html"
-
- <<page2.adoc#,Smart Link to page 2>>
- or
- <<page2.txt#,Smart Link to page 2>>
-
-both renders as a link
-
- href="page2.html"
-
 == To render the pages
 
 At the command prompt
@@ -28,3 +18,15 @@ If you'd like to use the colony stylesheet use
 Push your files back to your GitHub 'gh-pages' branch.
 
 Or just FTP the .html files that were generated to your website.
+
+== Smart Links
+
+I'm using Asciidoctor 'smart links' to convert the file extension ".adoc" or ".txt" to ".html"
+
+ <<page2.adoc#,Smart Link to page 2>>
+ or
+ <<page2.txt#,Smart Link to page 2>>
+
+both renders as a link
+
+ href="page2.html"
