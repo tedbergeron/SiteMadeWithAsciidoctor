@@ -10,5 +10,5 @@
 |=======================
 
 [.center.text-center]
-Document generated with link:http://asciidoctor.org/[image:https://img.shields.io/badge/Asciidoctor-v{asciidoctor-version}-orange.svg[]]
+Built with link:http://asciidoctor.org/[image:https://img.shields.io/badge/Asciidoctor-v{asciidoctor-version}-orange.svg[]]
 ====
